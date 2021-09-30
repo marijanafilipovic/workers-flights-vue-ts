@@ -5,7 +5,7 @@ interface Flight {
     from_date: string;
     to_date: string;
     plane: string;
-    duration: number;
+    duration: [number, string];
     from_gate: number;
     to_gate: number;
 }
